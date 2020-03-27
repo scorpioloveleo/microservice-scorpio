@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5eddb620-d9bf-48d8-961c-b66d16e9a487" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\mavenRePository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TbMxfrWMCltVC53TgDZZ5bqawq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scorpio-web/src/main/java/com/scorpio/controller" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.25542405" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.scorpio.filter" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.scorpio" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scorpio.controller" />
+      <recent name="com.scorpio.chapter01.server" />
+      <recent name="com.scorpio" />
+      <recent name="com.scorpio.service" />
+      <recent name="com.scorpio.source" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_project\scorpio-boot\scorpio-web\src\main\java\com\scorpio\controller" />
+      <recent name="D:\my_project\scorpio-boot\netty-01-4000\src\main\java\com\scorpio\chapter01\client" />
+      <recent name="D:\my_project\scorpio-boot\netty-01-4000\src\main\resources" />
+      <recent name="D:\my_project\scorpio-boot\scorpio-batch-6007\src\main\resources" />
+      <recent name="D:\my_project\scorpio-boot\scorpio-stream-6006\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ScorpioWebApplication">
+    <configuration name="LinkMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Link.LinkMain" />
+      <module name="scorpio-data-and-constructor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.MainTest" />
+      <module name="scorpio-data-and-constructor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.MinStack" />
+      <module name="scorpio-data-and-constructor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaLouTi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question.PaLouTi" />
+      <module name="scorpio-data-and-constructor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash.TransientTest" />
+      <module name="scorpio-data-and-constructor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorizationServerApplication1111" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authorization-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.AuthorizationServerApplication1111" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatchApplication6007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-batch-6007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.BatchApplication6007" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-consumer-6001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ConsumerApplication6001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication6002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-consumer-feign-6002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ConsumerApplication6002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication6004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-stream-6004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ConsumerApplication6004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication6006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-stream-6006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ConsumerApplication6006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-eureka-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.EurekaServerApplication7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-eureka-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.EurekaServerApplication7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-eureka-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.EurekaServerApplication7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayServerApplication9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.GateWayServerApplication9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyApplication4000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="netty-01-4000" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.NettyApplication4000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication6003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-stream-6003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ProducerApplication6003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-provider-5001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ProviderApplication5001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication5002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-provider-5002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ProviderApplication5002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication5003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-provider-5003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ProviderApplication5003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScorpioSSOApplication4396" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-sso" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ScorpioSSOApplication4396" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScorpioWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scorpio-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scorpio.ScorpioWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TransientTest" />
+        <item itemvalue="Application.PaLouTi" />
+        <item itemvalue="Application.LinkMain" />
+        <item itemvalue="Application.MinStack" />
+        <item itemvalue="Application.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eddb620-d9bf-48d8-961c-b66d16e9a487" name="Default Changelist" comment="" />
+      <created>1573724589242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573724589242</updated>
+      <workItem from="1573724590404" duration="5578000" />
+      <workItem from="1573869674687" duration="986000" />
+      <workItem from="1573870802056" duration="2071000" />
+      <workItem from="1573873126822" duration="1885000" />
+      <workItem from="1573875057641" duration="768000" />
+      <workItem from="1573876513794" duration="17267000" />
+      <workItem from="1574040894372" duration="6089000" />
+      <workItem from="1574938966574" duration="4733000" />
+      <workItem from="1575027727766" duration="53668000" />
+      <workItem from="1575687627326" duration="50925000" />
+      <workItem from="1576467990524" duration="6619000" />
+      <workItem from="1576553748658" duration="25886000" />
+      <workItem from="1577150933951" duration="15000" />
+      <workItem from="1577151026253" duration="2571000" />
+      <workItem from="1577239184318" duration="6692000" />
+      <workItem from="1577773936674" duration="3419000" />
+      <workItem from="1577929161575" duration="3372000" />
+      <workItem from="1578471369745" duration="3750000" />
+      <workItem from="1578534155265" duration="5276000" />
+      <workItem from="1579401387807" duration="5878000" />
+      <workItem from="1584952249635" duration="5163000" />
+      <workItem from="1585043712754" duration="35358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1585215662106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="169" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585215662106" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1578562214683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578562214683" />
+    <state width="1867" height="227" key="GridCell.Tab.0.bottom" timestamp="1585287719417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719417" />
+    <state width="1867" height="227" key="GridCell.Tab.0.center" timestamp="1585287719416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719416" />
+    <state width="1867" height="227" key="GridCell.Tab.0.left" timestamp="1585287719416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719416" />
+    <state width="1867" height="227" key="GridCell.Tab.0.right" timestamp="1585287719417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719417" />
+    <state width="1867" height="227" key="GridCell.Tab.1.bottom" timestamp="1585287719419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719419" />
+    <state width="1867" height="227" key="GridCell.Tab.1.center" timestamp="1585287719418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719418" />
+    <state width="1867" height="227" key="GridCell.Tab.1.left" timestamp="1585287719418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719418" />
+    <state width="1867" height="227" key="GridCell.Tab.1.right" timestamp="1585287719418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719418" />
+    <state width="1867" height="227" key="GridCell.Tab.2.bottom" timestamp="1585287719421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719421" />
+    <state width="1867" height="227" key="GridCell.Tab.2.center" timestamp="1585287719420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719420" />
+    <state width="1867" height="227" key="GridCell.Tab.2.left" timestamp="1585287719419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719419" />
+    <state width="1867" height="227" key="GridCell.Tab.2.right" timestamp="1585287719420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="227" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585287719420" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585043785044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585043785044" />
+    <state x="574" y="193" width="771" height="654" key="find.popup" timestamp="1585276113708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="193" width="771" height="654" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585276113708" />
+    <state x="322" y="215" key="new project wizard" timestamp="1585117915572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="322" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585117915572" />
+    <state x="623" y="225" width="840" height="678" key="search.everywhere.popup" timestamp="1585276842006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="840" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585276842006" />
+  </component>
+</project>

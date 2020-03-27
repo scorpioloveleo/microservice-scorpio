@@ -1,0 +1,2 @@
+com.scorpio.filter.EnableLogFilter=\
+  com.scorpio.filter.LogFilterAutoConfiguration

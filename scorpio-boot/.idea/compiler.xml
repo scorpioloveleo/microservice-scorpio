@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scorpio-stream-6006" />
+        <module name="scorpio-data-and-constructor" />
+        <module name="filter-log-starter" />
+        <module name="scorpio-stream-6003" />
+        <module name="scorpio-provider-5003" />
+        <module name="scorpio-provider-5002" />
+        <module name="scorpio-provider-5001" />
+        <module name="netty-01-4000" />
+        <module name="scorpio-consumer-6001" />
+        <module name="scorpio-eureka-7003" />
+        <module name="scorpio-eureka-7002" />
+        <module name="scorpio-eureka-7001" />
+        <module name="authorization-server" />
+        <module name="scorpio-sso" />
+        <module name="scorpio-web" />
+        <module name="scorpio-consumer-feign-6002" />
+        <module name="scorpio-stream-6004" />
+        <module name="scorpio-batch-6007" />
+        <module name="gateway-server" />
+        <module name="scorpio-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization-server" target="1.8" />
+      <module name="filter-log-starter" target="1.8" />
+      <module name="gateway-server" target="1.8" />
+      <module name="netty-01-4000" target="1.8" />
+      <module name="scorpio-batch-6007" target="1.8" />
+      <module name="scorpio-boot" target="1.8" />
+      <module name="scorpio-common" target="1.8" />
+      <module name="scorpio-consumer-6001" target="1.8" />
+      <module name="scorpio-consumer-feign-6002" target="1.8" />
+      <module name="scorpio-data-and-constructor" target="1.8" />
+      <module name="scorpio-eureka-7001" target="1.8" />
+      <module name="scorpio-eureka-7002" target="1.8" />
+      <module name="scorpio-eureka-7003" target="1.8" />
+      <module name="scorpio-parent" target="1.8" />
+      <module name="scorpio-provider-5001" target="1.8" />
+      <module name="scorpio-provider-5002" target="1.8" />
+      <module name="scorpio-provider-5003" target="1.8" />
+      <module name="scorpio-sso" target="1.8" />
+      <module name="scorpio-stream-6003" target="1.8" />
+      <module name="scorpio-stream-6004" target="1.8" />
+      <module name="scorpio-stream-6005" target="1.8" />
+      <module name="scorpio-stream-6006" target="1.8" />
+      <module name="scorpio-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server" options="-parameters" />
+      <module name="filter-log-starter" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="netty-01-4000" options="-parameters" />
+      <module name="scorpio-batch-6007" options="-parameters" />
+      <module name="scorpio-common" options="-parameters" />
+      <module name="scorpio-consumer-6001" options="-parameters" />
+      <module name="scorpio-consumer-feign-6002" options="-parameters" />
+      <module name="scorpio-data-and-constructor" options="-parameters" />
+      <module name="scorpio-eureka-7001" options="-parameters" />
+      <module name="scorpio-eureka-7002" options="-parameters" />
+      <module name="scorpio-eureka-7003" options="-parameters" />
+      <module name="scorpio-parent" options="-parameters" />
+      <module name="scorpio-provider-5001" options="-parameters" />
+      <module name="scorpio-provider-5002" options="-parameters" />
+      <module name="scorpio-provider-5003" options="-parameters" />
+      <module name="scorpio-sso" options="-parameters" />
+      <module name="scorpio-stream-6003" options="-parameters" />
+      <module name="scorpio-stream-6004" options="-parameters" />
+      <module name="scorpio-stream-6005" options="-parameters" />
+      <module name="scorpio-stream-6006" options="-parameters" />
+      <module name="scorpio-web" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authorization-server/authorization-server.iml" filepath="$PROJECT_DIR$/authorization-server/authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" filepath="$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-01-4000/netty-01-4000.iml" filepath="$PROJECT_DIR$/netty-01-4000/netty-01-4000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-batch-6007/scorpio-batch-6007.iml" filepath="$PROJECT_DIR$/scorpio-batch-6007/scorpio-batch-6007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/scorpio-boot.iml" filepath="$PROJECT_DIR$/.idea/scorpio-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-common/scorpio-common.iml" filepath="$PROJECT_DIR$/scorpio-common/scorpio-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-consumer-6001/scorpio-consumer-6001.iml" filepath="$PROJECT_DIR$/scorpio-consumer-6001/scorpio-consumer-6001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-consumer-feign-6002/scorpio-consumer-feign-6002.iml" filepath="$PROJECT_DIR$/scorpio-consumer-feign-6002/scorpio-consumer-feign-6002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-data-and-constructor/scorpio-data-and-constructor.iml" filepath="$PROJECT_DIR$/scorpio-data-and-constructor/scorpio-data-and-constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-eureka-7001/scorpio-eureka-7001.iml" filepath="$PROJECT_DIR$/scorpio-eureka-7001/scorpio-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-eureka-7002/scorpio-eureka-7002.iml" filepath="$PROJECT_DIR$/scorpio-eureka-7002/scorpio-eureka-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-eureka-7003/scorpio-eureka-7003.iml" filepath="$PROJECT_DIR$/scorpio-eureka-7003/scorpio-eureka-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-parent/scorpio-parent.iml" filepath="$PROJECT_DIR$/scorpio-parent/scorpio-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-provider-5001/scorpio-provider-5001.iml" filepath="$PROJECT_DIR$/scorpio-provider-5001/scorpio-provider-5001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-provider-5002/scorpio-provider-5002.iml" filepath="$PROJECT_DIR$/scorpio-provider-5002/scorpio-provider-5002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-provider-5003/scorpio-provider-5003.iml" filepath="$PROJECT_DIR$/scorpio-provider-5003/scorpio-provider-5003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-sso/scorpio-sso.iml" filepath="$PROJECT_DIR$/scorpio-sso/scorpio-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-stream-6003/scorpio-stream-6003.iml" filepath="$PROJECT_DIR$/scorpio-stream-6003/scorpio-stream-6003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-stream-6004/scorpio-stream-6004.iml" filepath="$PROJECT_DIR$/scorpio-stream-6004/scorpio-stream-6004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-stream-6006/scorpio-stream-6006.iml" filepath="$PROJECT_DIR$/scorpio-stream-6006/scorpio-stream-6006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scorpio-web/scorpio-web.iml" filepath="$PROJECT_DIR$/scorpio-web/scorpio-web.iml" />
+    </modules>
+  </component>
+</project>

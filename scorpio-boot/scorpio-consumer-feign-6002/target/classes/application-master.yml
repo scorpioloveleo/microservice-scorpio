@@ -1,0 +1,25 @@
+server:
+  port: 6002
+
+eureka:
+  client:
+   service-url:
+    defaultZone: http://server1:7001/eureka/
+
+
+security:
+  oauth2:
+    client:
+      client-id: client_6002
+      client-secret: secret
+      access-token-uri: http://localhost:1111/oauth/token
+      user-authorization-uri: http://localhost:1111/oauth/authorize
+      client-authentication-scheme: form
+    resource:
+      user-info-uri: http://localhost:5001/user
+      prefer-token-info: false
+
+
+
+
+

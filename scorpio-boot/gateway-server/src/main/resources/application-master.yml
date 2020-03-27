@@ -1,0 +1,88 @@
+server:
+  port: 9527
+
+eureka:
+  client:
+   service-url:
+    defaultZone: http://server1:7001/eureka/
+
+#自定义路由器和过滤器
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      default-filters:
+      - AddResponseHeader=X-Response-Default-Foo, Default-Bar
+      - RemoveRequestHeader=Origin
+      routes:
+      # ===================================== http://localhost:9527/test  http://localhost:9527/test/123都可以
+      - id: default_path_to_http
+        #一定要加http://  不然 java.lang.IllegalArgumentException: The parameter [www.baidu.com] format is incorrect, scheme can not be empty
+        uri: https://www.baidu.com/
+        order: 10000  # 优先级很低
+        predicates:
+        - Path=/test/**
+        filters:
+        - StripPrefix=2
+      #  规定请求再指定时间才能访问,  localhost:9527/time
+      - id: myself_api_01
+        uri: http://baidu.com # http://blueskykong.com
+        order: 10000  # 优先级很低
+        predicates:  #可以配置多个,使用正则匹配.
+        - Path=/time/**
+        - After=2019-12-05T16:42:47.789+08:00[Asia/Shanghai] #请求的时间必须晚于上海时间 2018.3.20 10:42
+        filters:
+        - StripPrefix=1
+      #  删除filter,跳百度错误页面; uri+ www不影响
+      - id: myself_api_02
+        uri: http://www.baidu.com
+        order: 10000  # 优先级很低
+        predicates:  #可以配置多个,使用正则匹配.
+        - Path=/op/**
+        filters:
+        - StripPrefix=1
+
+      #测试自己的接口 ,通过
+      - id: myself_api_03
+        uri: lb://scorpio-provider-5001
+        order: 10000  # 优先级很低
+        predicates:  #可以配置多个,使用正则匹配.
+        - Path=/user/feign/**
+        #filter配置,  /user/feign/** 会被截取 为/feign/**
+        filters:
+        - StripPrefix=1
+
+      #路由权重，基于同一组 ,注意id，不能重复
+      - id: my_router_base_group1
+        uri: http://youdao.com
+        order: 6000  # 优先级很低
+        predicates:  #可以配置多个,使用正则匹配.
+        - Path=/weight/**
+        - Weight=group3, 3 #基于同一个组名
+        filters:
+        - StripPrefix=2
+      - id: my_router_base_group2
+        uri: http://blueskykong.com
+        order: 6000  # 优先级很低
+        predicates:  #可以配置多个,使用正则匹配.
+        - Path=/weight/**
+        - Weight=group3, 3 #基于同一个组名
+        filters:
+        - StripPrefix=2
+
+      #网关直接放过登录获取token的接口
+      - id: my_router_base_group2
+        uri: lb://scorpio-provider-5001
+        order: 6000  # 优先级很低
+        predicates:  #可以配置多个,使用正则匹配.
+        - Path=/login/**
+        filters:
+        - StripPrefix=0
+
+
+
+
+
+

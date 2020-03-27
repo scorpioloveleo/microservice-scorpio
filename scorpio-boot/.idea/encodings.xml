@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filter-log-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filter-log-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-01-4000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-batch-6007" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-batch-6007/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-consumer-6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-consumer-6001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-consumer-feign-6002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-consumer-feign-6002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-data-and-constructor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-eureka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-eureka-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-eureka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-eureka-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-provider-5001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-provider-5001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-provider-5002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-provider-5002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-provider-5003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-provider-5003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-sso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-stream-6003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-stream-6003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-stream-6004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-stream-6004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-stream-6006" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-stream-6006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scorpio-web/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.scorpio</groupId>
+    <artifactId>scorpio-boot</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
+    <modules>
+        <module>scorpio-parent</module>
+        <module>scorpio-web</module>
+        <module>scorpio-eureka-7001</module>
+        <module>scorpio-provider-5001</module>
+        <module>scorpio-consumer-6001</module>
+        <module>scorpio-eureka-7002</module>
+        <module>scorpio-eureka-7003</module>
+        <module>scorpio-provider-5002</module>
+        <module>scorpio-provider-5003</module>
+        <module>scorpio-common</module>
+        <module>scorpio-consumer-feign-6002</module>
+        <module>filter-log-starter</module>
+        <module>gateway-server</module>
+        <module>authorization-server</module>
+        <module>scorpio-sso</module>
+        <module>scorpio-stream-6003</module>
+        <module>scorpio-stream-6004</module>
+        <module>scorpio-stream-6006</module>
+        <module>scorpio-batch-6007</module>
+        <module>netty-01-4000</module>
+        <module>scorpio-data-and-constructor</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.6.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+    </properties>
+
+    <!--统一指定cloud版本号,子module项目还需要引入相关jar包,不需要声明版本-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
