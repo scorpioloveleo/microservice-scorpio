@@ -1,4 +1,4 @@
-package com.scorpio.controller;
+package com.scorpio.common;
 
 
 import lombok.extern.slf4j.Slf4j;

@@ -1,14 +1,13 @@
 package com.scorpio.controller;
 
 
+import com.scorpio.common.ApplicationException;
 import com.scorpio.config.EnviromentConfig;
 import com.scorpio.entity.SourceRntity;
 import com.scorpio.entity.TargetEntity;
 import com.scorpio.service.CacheService;
-import com.scorpio.transfer.CommonTransfer;
 import com.scorpio.utils.CopyUtils;
 import org.junit.Test;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -87,7 +86,7 @@ public class StartApp {
     }
 
     @GetMapping("shunxu")
-    public String testShunxu() throws ApplicationException{
+    public String testShunxu() throws ApplicationException {
         System.out.println("======================Controller-----------------------");
         return "OK";
     }

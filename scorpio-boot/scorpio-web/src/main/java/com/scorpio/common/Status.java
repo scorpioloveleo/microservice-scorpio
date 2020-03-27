@@ -1,6 +1,8 @@
-package com.scorpio.controller;
+package com.scorpio.common;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.scorpio.common.ApplicationException;
+import com.scorpio.common.IErrorCode;
 
 public class Status {
     private Integer code = 0;

@@ -1,4 +1,6 @@
-package com.scorpio.controller;
+package com.scorpio.common;
+
+import com.scorpio.common.IErrorCode;
 
 public enum SysError implements IErrorCode {
 

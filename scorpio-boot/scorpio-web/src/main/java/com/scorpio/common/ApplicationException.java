@@ -1,4 +1,4 @@
-package com.scorpio.controller;
+package com.scorpio.common;
 
 import java.text.MessageFormat;
 
