@@ -1,10 +1,6 @@
 package com.scorpio;
 
-import com.scorpio.config.StartCommand;
-import com.scorpio.entity.SourceRntity;
-import com.scorpio.entity.TargetEntity;
-import com.scorpio.filter.EnableLogFilter;
-import com.scorpio.transfer.CommonTransfer;
+//import com.scorpio.filter.EnableLogFilter;
 import org.junit.Test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-@EnableLogFilter
+//@EnableLogFilter
 @RestController
 @EnableCaching
 public class ScorpioWebApplication {
@@ -29,7 +25,9 @@ public class ScorpioWebApplication {
     }
 
     @RequestMapping("/start")
-    public String firtOne(){
-        return "OK";
+    public String[] firtOne(){
+        List<String> lists = new ArrayList<>();
+        String[] strings ={"34", "23"};
+        return strings;
     }
 }

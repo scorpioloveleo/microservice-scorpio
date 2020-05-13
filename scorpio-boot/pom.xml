@@ -32,6 +32,7 @@
         <module>scorpio-batch-6007</module>
         <module>netty-01-4000</module>
         <module>scorpio-data-and-constructor</module>
+        <module>leetcode</module>
     </modules>
 
     <parent>

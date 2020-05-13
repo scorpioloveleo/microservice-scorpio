@@ -59,11 +59,11 @@
                 <artifactId>junit</artifactId>
             </dependency>
 
-            <dependency>
+            <!--<dependency>
                 <groupId>com.scorpio</groupId>
                 <artifactId>filter-log-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
-            </dependency>
+            </dependency>-->
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -81,6 +81,26 @@
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
+            </dependency>
+
+            <!-- gson -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>18.0</version>
+            </dependency>
+
+            <!-- fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.67</version>
+            </dependency>
+
+            <!-- websocket 模块 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-websocket</artifactId>
             </dependency>
 
         </dependencies>
