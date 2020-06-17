@@ -1,0 +1,67 @@
+#!/bin/bash
+# /data/apps/bas/bas-service/bas-service-1.0-SNAPSHOT.jar
+jarPath="$1"
+# 截取上面的最后一段bas-service-1.0-SNAPSHOT.jar
+jar=${jarPath##*/}
+# uat
+env="$2"
+# -Xms
+Xms="$3"
+# -Xmx
+Xmx="$4"
+
+# 使用方式
+# ./restart.sh /data/apps/bas/bas-service/bas-service-1.0-SNAPSHOT.jar uat 128m 256m
+
+# TODO 以后可以加上参数的校验
+
+echo "############################################################################################"
+echo "## Restarting" $jar
+echo "############################################################################################"
+
+# 关闭进程
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ps -ef | grep $jarPath | grep -v grep 得到的结果：
+# root       544     1  3 07:41 pts/0    00:01:29 /usr/bin/java -Xms128m -Xmx256m -jar /data/apps/bas/bas-service/bas-service-1.0-SNAPSHOT.jar --spring.profiles.active=uat
+# root      5520   469  0 08:30 pts/0    00:00:00 /bin/bash ./restart.sh /data/apps/bas/bas-service/bas-service-1.0-SNAPSHOT.jar uat 128m 256m
+# root      5521  5520  0 08:30 pts/0    00:00:00 /bin/bash ./restart.sh /data/apps/bas/bas-service/bas-service-1.0-SNAPSHOT.jar uat 128m 256m
+# 会有两个restart.sh脚本执行的进程出现导致获取不到真正的pid，所以需要改为
+# ps -ef | grep $jarPath | grep -v grep | grep -v $0
+# 排除掉restart.sh执行而产生的进程
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pid=`ps -ef | grep $jarPath | grep -v grep | grep -v $0 | awk '{print $2}'`
+if [ -n "$pid" ]
+then
+   echo "关闭进程：$pid"
+   kill $pid
+else
+   echo "进程未在运行"
+fi
+
+# 授予当前用户权限
+chmod 777 $jarPath
+# 清理日志文件
+cat /dev/null > nohup.out
+# 加载环境变量，否则获取不到JAVA_HOME
+source /etc/profile
+# 获取JAVA_HOME
+javaHome=`which java`
+
+# 完整的命令 nohup /usr/bin/java -Xms128m -Xmx256m -jar /data/apps/bas/bas-service/bas-service-1.0-SNAPSHOT.jar --spring.profiles.active=uat &
+# 加上拼凑参数 nohup $javaHome -Xms$Xms -Xmx$Xmx -jar $jarPath --spring.profiles.active=$env &
+echo "执行命令：nohup $javaHome -Xms$Xms -Xmx$Xmx -jar $jarPath --spring.profiles.active=$env &"
+nohup $javaHome -Xms$Xms -Xmx$Xmx -jar $jarPath --spring.profiles.active=$env &
+
+# 等待3秒等进程创建
+sleep 3
+
+# 查看进程是否创建成功
+pid=`ps -ef | grep $jarPath | grep -v grep | grep -v $0 | awk '{print $2}'`
+if [ -n "$pid" ]
+then
+   echo "当前进程："$pid
+   exit
+else
+   echo "进程启动失败"
+   exit 1
+fi
